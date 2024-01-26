@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(238, 234, 234);
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#center{
+    width: 100%;
+    /* background-color: red; */
+    padding: 0px 80px;
+}
+#center h1{
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 70px;
+}
+#center-in{
+    height: 180px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+#right{
+    width: 20%;
+}
+.elem{
+    /* background-color: yellow; */
+    padding: 15px 0;
+    /* margin: 5px; */
+    border-top: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.elem i{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover i{
+  opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+#bottom{
+    height: 35%;
+    width: 100%;
+    background-color: red;
+    background-image: url("https://media.istockphoto.com/id/1446098147/photo/shopping-happy-and-portrait-of-customer-with-bag-after-shopping-spree-buying-retail-fashion.jpg?s=1024x1024&w=is&k=20&c=sFbdeCAKbk6wFXXeJxULuFMeNuiws3DwqmGTaaKenR0=");
+    background-size: cover;
+    background-position: 0 20%;
+}
+/* #cart{
+    display: flex;
+    justify-content: space-between;
+} */
